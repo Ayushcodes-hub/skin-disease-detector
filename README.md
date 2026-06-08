@@ -40,3 +40,22 @@ The network was trained on **10,015+ dermatoscopic images** sourced from the HAM
 ---
 
 ## 🛠️ The Tech Pipeline Ecosystem
+1.  **Kaggle:** Mass infrastructure data host delivering raw, pre-vetted medical image archives.
+2.  **Google Colab:** Cloud GPU compute workspace utilized to run backpropagation algorithms and matrix calculations.
+3.  **GitHub:** Main codebase coordinator for hosting code structure, configuration management, and tracking scripts.
+4.  **Hugging Face Spaces + Gradio:** Production app virtualization, hosting the container layer that runs predictions live for users.
+
+---
+
+## 💻 Local Implementation Guide
+
+To run this application dashboard on your local developer workstation:
+
+1. Clone the active directory repository:
+```bash
+git clone [https://github.com/](https://github.com/)[Ayushcodes-hub]/skin-disease-detector.git
+cd skin-disease-detector
+pip install -r requirements.txt
+python app.py
+⚠️ Official Medical Disclaimer
+This software deployment functions strictly as an educational and machine-learning prototyping platform. It does not issue clinical directives, automated medical diagnoses, prescriptive protocols, or definitive health evaluations. All computational charts and probability scores are experimental values. Users must consult a certified medical specialist or clinical professional for genuine skin healthcare assessments.
